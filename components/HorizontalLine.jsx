@@ -22,7 +22,7 @@ const HorizontalLine = () => {
     <>
       <div
         className="transition-block-box"
-        style={{ overflow: "hidden", width: "100%" }}
+        style={{ overflow: "hidden", width: "98.5%" }}
       >
         <a
           href="#"

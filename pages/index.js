@@ -8,7 +8,8 @@ const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <>
+    <div className="container">
+
     <section className="scroller-section hidden lg:block">
     <div className="hero">
       <div className="hero-header">
@@ -29,6 +30,6 @@ export default function Home() {
     <div className="flex justify-center lg:hidden">
     <MobileHeroLayout />
     </div>
-    </>
+    </div>
   );
 }
