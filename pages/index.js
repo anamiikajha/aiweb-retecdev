@@ -2,15 +2,14 @@ import { Inter } from "next/font/google";
 import HeroLayoutBox from "@/components/HeroLayoutBox";
 import HorizontalLine from "@/components/HorizontalLine";
 import MobileHeroLayout from "@/components/MobileHeroLayout";
+import AnimatedButton from "@/components/AnimatedButton";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
-    <div className="container">
-
+    <>
     <section className="scroller-section hidden lg:block">
-
     <div className="hero">
       <div className="hero-header">
         <h2
@@ -30,6 +29,6 @@ export default function Home() {
     <div className="flex justify-center lg:hidden">
     <MobileHeroLayout />
     </div>
-    </div>
+    </>
   );
 }
