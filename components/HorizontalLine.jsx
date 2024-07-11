@@ -9,7 +9,6 @@ const HorizontalLine = () => {
     const handleScroll = () => {
       const position = window.scrollY;
       setScrollPosition(position);
-      console.log(position)
     };
 
     window.addEventListener("scroll", handleScroll);
